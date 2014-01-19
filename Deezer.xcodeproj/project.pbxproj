@@ -120,6 +120,7 @@
 		A8280890188C222E00C7DB87 /* Tokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tokens.h; path = Tokens/Tokens.h; sourceTree = "<group>"; };
 		A8280891188C222E00C7DB87 /* Tokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tokens.m; path = Tokens/Tokens.m; sourceTree = "<group>"; };
 		A8280894188C261400C7DB87 /* BaseTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTokens.h; path = Tokens/BaseTokens.h; sourceTree = "<group>"; };
+		A8280895188C374A00C7DB87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +170,7 @@
 		A828079F188ABD3900C7DB87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8280895188C374A00C7DB87 /* AudioToolbox.framework */,
 				A828088B188BF54400C7DB87 /* AVFoundation.framework */,
 				A82807D6188AC32E00C7DB87 /* libDeezer.a */,
 				A82807A0188ABD3900C7DB87 /* Foundation.framework */,
@@ -416,6 +418,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = RemiLavedrine;
 				TargetAttributes = {
+					A828079C188ABD3900C7DB87 = {
+						DevelopmentTeam = 269J2W3P7L;
+					};
 					A82807B7188ABD3900C7DB87 = {
 						TestTargetID = A828079C188ABD3900C7DB87;
 					};
@@ -608,6 +613,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Deezer/Deezer-Prefix.pch";
 				INFOPLIST_FILE = "Deezer/Deezer-Info.plist";
@@ -617,6 +624,7 @@
 					/Users/Rems/Projets/git/Deezer/Deezer/ExternalLibraries/DeezerSdk,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -627,6 +635,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Deezer/Deezer-Prefix.pch";
 				INFOPLIST_FILE = "Deezer/Deezer-Info.plist";
@@ -636,6 +646,7 @@
 					/Users/Rems/Projets/git/Deezer/Deezer/ExternalLibraries/DeezerSdk,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
