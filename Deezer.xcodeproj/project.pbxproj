@@ -19,6 +19,31 @@
 		A82807BC188ABD3900C7DB87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82807A4188ABD3900C7DB87 /* UIKit.framework */; };
 		A82807C4188ABD3900C7DB87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A82807C2188ABD3900C7DB87 /* InfoPlist.strings */; };
 		A82807C6188ABD3900C7DB87 /* DeezerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A82807C5188ABD3900C7DB87 /* DeezerTests.m */; };
+		A82807D2188ABDDC00C7DB87 /* SearchArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82807D0188ABDDC00C7DB87 /* SearchArtistViewController.m */; };
+		A82807D3188ABDDC00C7DB87 /* SearchArtistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A82807D1188ABDDC00C7DB87 /* SearchArtistViewController.xib */; };
+		A8280846188AE61D00C7DB87 /* FirstAlbumForArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280844188AE61D00C7DB87 /* FirstAlbumForArtistViewController.m */; };
+		A8280847188AE61D00C7DB87 /* FirstAlbumForArtistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8280845188AE61D00C7DB87 /* FirstAlbumForArtistViewController.xib */; };
+		A828084B188AEDAB00C7DB87 /* DeezerSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A828084A188AEDAB00C7DB87 /* DeezerSession.m */; };
+		A828086A188AF8A700C7DB87 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280850188AF8A700C7DB87 /* MKAnnotationView+WebCache.m */; };
+		A828086B188AF8A700C7DB87 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280852188AF8A700C7DB87 /* SDImageCache.m */; };
+		A828086C188AF8A700C7DB87 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280854188AF8A700C7DB87 /* SDWebImageCompat.m */; };
+		A828086D188AF8A700C7DB87 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280856188AF8A700C7DB87 /* SDWebImageDecoder.m */; };
+		A828086E188AF8A700C7DB87 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280858188AF8A700C7DB87 /* SDWebImageDownloader.m */; };
+		A828086F188AF8A700C7DB87 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A828085A188AF8A700C7DB87 /* SDWebImageDownloaderOperation.m */; };
+		A8280870188AF8A700C7DB87 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A828085C188AF8A700C7DB87 /* SDWebImageManager.m */; };
+		A8280871188AF8A700C7DB87 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A828085F188AF8A700C7DB87 /* SDWebImagePrefetcher.m */; };
+		A8280872188AF8A700C7DB87 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280861188AF8A700C7DB87 /* UIButton+WebCache.m */; };
+		A8280873188AF8A700C7DB87 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280863188AF8A700C7DB87 /* UIImage+GIF.m */; };
+		A8280874188AF8A700C7DB87 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280865188AF8A700C7DB87 /* UIImage+MultiFormat.m */; };
+		A8280875188AF8A700C7DB87 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280867188AF8A700C7DB87 /* UIImage+WebP.m */; };
+		A8280876188AF8A700C7DB87 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280869188AF8A700C7DB87 /* UIImageView+WebCache.m */; };
+		A828087B188AF95B00C7DB87 /* artistIconPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = A828087A188AF95B00C7DB87 /* artistIconPlaceholder.png */; };
+		A828087E188AFA5D00C7DB87 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = A828087D188AFA5D00C7DB87 /* NSData+ImageContentType.m */; };
+		A8280888188B39B300C7DB87 /* PlayTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280886188B39B300C7DB87 /* PlayTrackViewController.m */; };
+		A8280889188B39B300C7DB87 /* PlayTrackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8280887188B39B300C7DB87 /* PlayTrackViewController.xib */; };
+		A828088C188BF54400C7DB87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A828088B188BF54400C7DB87 /* AVFoundation.framework */; };
+		A828088F188C1A6F00C7DB87 /* artistCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = A828088E188C1A6F00C7DB87 /* artistCircle.png */; };
+		A8280892188C222E00C7DB87 /* Tokens.m in Sources */ = {isa = PBXBuildFile; fileRef = A8280891188C222E00C7DB87 /* Tokens.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +73,53 @@
 		A82807C1188ABD3900C7DB87 /* DeezerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeezerTests-Info.plist"; sourceTree = "<group>"; };
 		A82807C3188ABD3900C7DB87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A82807C5188ABD3900C7DB87 /* DeezerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeezerTests.m; sourceTree = "<group>"; };
+		A82807CF188ABDDC00C7DB87 /* SearchArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchArtistViewController.h; path = Controllers/SearchDeezerViewController/SearchArtistViewController.h; sourceTree = "<group>"; };
+		A82807D0188ABDDC00C7DB87 /* SearchArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchArtistViewController.m; path = Controllers/SearchDeezerViewController/SearchArtistViewController.m; sourceTree = "<group>"; };
+		A82807D1188ABDDC00C7DB87 /* SearchArtistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchArtistViewController.xib; path = Controllers/SearchDeezerViewController/SearchArtistViewController.xib; sourceTree = "<group>"; };
+		A82807D6188AC32E00C7DB87 /* libDeezer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDeezer.a; path = Deezer/ExternalLibraries/DeezerSdk/libDeezer.a; sourceTree = "<group>"; };
+		A8280843188AE61D00C7DB87 /* FirstAlbumForArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstAlbumForArtistViewController.h; path = Controllers/FirstAlbumForArtistViewController/FirstAlbumForArtistViewController.h; sourceTree = "<group>"; };
+		A8280844188AE61D00C7DB87 /* FirstAlbumForArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstAlbumForArtistViewController.m; path = Controllers/FirstAlbumForArtistViewController/FirstAlbumForArtistViewController.m; sourceTree = "<group>"; };
+		A8280845188AE61D00C7DB87 /* FirstAlbumForArtistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstAlbumForArtistViewController.xib; path = Controllers/FirstAlbumForArtistViewController/FirstAlbumForArtistViewController.xib; sourceTree = "<group>"; };
+		A8280849188AEDAB00C7DB87 /* DeezerSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeezerSession.h; path = DataManager/DeezerSession.h; sourceTree = "<group>"; };
+		A828084A188AEDAB00C7DB87 /* DeezerSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeezerSession.m; path = DataManager/DeezerSession.m; sourceTree = "<group>"; };
+		A828084F188AF8A700C7DB87 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		A8280850188AF8A700C7DB87 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		A8280851188AF8A700C7DB87 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		A8280852188AF8A700C7DB87 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		A8280853188AF8A700C7DB87 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		A8280854188AF8A700C7DB87 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		A8280855188AF8A700C7DB87 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		A8280856188AF8A700C7DB87 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		A8280857188AF8A700C7DB87 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		A8280858188AF8A700C7DB87 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		A8280859188AF8A700C7DB87 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		A828085A188AF8A700C7DB87 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		A828085B188AF8A700C7DB87 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		A828085C188AF8A700C7DB87 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		A828085D188AF8A700C7DB87 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		A828085E188AF8A700C7DB87 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		A828085F188AF8A700C7DB87 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		A8280860188AF8A700C7DB87 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		A8280861188AF8A700C7DB87 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		A8280862188AF8A700C7DB87 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		A8280863188AF8A700C7DB87 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		A8280864188AF8A700C7DB87 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		A8280865188AF8A700C7DB87 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		A8280866188AF8A700C7DB87 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		A8280867188AF8A700C7DB87 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		A8280868188AF8A700C7DB87 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		A8280869188AF8A700C7DB87 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		A828087A188AF95B00C7DB87 /* artistIconPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artistIconPlaceholder.png; sourceTree = "<group>"; };
+		A828087C188AFA5D00C7DB87 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		A828087D188AFA5D00C7DB87 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		A8280885188B39B300C7DB87 /* PlayTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayTrackViewController.h; path = Controllers/PlayTrackViewController/PlayTrackViewController.h; sourceTree = "<group>"; };
+		A8280886188B39B300C7DB87 /* PlayTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayTrackViewController.m; path = Controllers/PlayTrackViewController/PlayTrackViewController.m; sourceTree = "<group>"; };
+		A8280887188B39B300C7DB87 /* PlayTrackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayTrackViewController.xib; path = Controllers/PlayTrackViewController/PlayTrackViewController.xib; sourceTree = "<group>"; };
+		A828088B188BF54400C7DB87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A828088E188C1A6F00C7DB87 /* artistCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artistCircle.png; sourceTree = "<group>"; };
+		A8280890188C222E00C7DB87 /* Tokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tokens.h; path = Tokens/Tokens.h; sourceTree = "<group>"; };
+		A8280891188C222E00C7DB87 /* Tokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tokens.m; path = Tokens/Tokens.m; sourceTree = "<group>"; };
+		A8280894188C261400C7DB87 /* BaseTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTokens.h; path = Tokens/BaseTokens.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A828088C188BF54400C7DB87 /* AVFoundation.framework in Frameworks */,
 				A82807A3188ABD3900C7DB87 /* CoreGraphics.framework in Frameworks */,
 				A82807A5188ABD3900C7DB87 /* UIKit.framework in Frameworks */,
 				A82807A1188ABD3900C7DB87 /* Foundation.framework in Frameworks */,
@@ -96,6 +169,8 @@
 		A828079F188ABD3900C7DB87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A828088B188BF54400C7DB87 /* AVFoundation.framework */,
+				A82807D6188AC32E00C7DB87 /* libDeezer.a */,
 				A82807A0188ABD3900C7DB87 /* Foundation.framework */,
 				A82807A2188ABD3900C7DB87 /* CoreGraphics.framework */,
 				A82807A4188ABD3900C7DB87 /* UIKit.framework */,
@@ -107,6 +182,12 @@
 		A82807A6188ABD3900C7DB87 /* Deezer */ = {
 			isa = PBXGroup;
 			children = (
+				A8280877188AF95B00C7DB87 /* Resources */,
+				A82807D8188AC3C800C7DB87 /* ExternalLibraries */,
+				A828084C188AEDB000C7DB87 /* DataManager */,
+				A82807D5188ABDFE00C7DB87 /* Controllers */,
+				A828087F188B336D00C7DB87 /* Utilities */,
+				A8280893188C223400C7DB87 /* Tokens */,
 				A82807AF188ABD3900C7DB87 /* AppDelegate.h */,
 				A82807B0188ABD3900C7DB87 /* AppDelegate.m */,
 				A82807B2188ABD3900C7DB87 /* Images.xcassets */,
@@ -142,6 +223,150 @@
 				A82807C2188ABD3900C7DB87 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A82807D4188ABDED00C7DB87 /* SearchArtistViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A82807CF188ABDDC00C7DB87 /* SearchArtistViewController.h */,
+				A82807D0188ABDDC00C7DB87 /* SearchArtistViewController.m */,
+				A82807D1188ABDDC00C7DB87 /* SearchArtistViewController.xib */,
+			);
+			name = SearchArtistViewController;
+			sourceTree = "<group>";
+		};
+		A82807D5188ABDFE00C7DB87 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A82807D4188ABDED00C7DB87 /* SearchArtistViewController */,
+				A8280848188AE62500C7DB87 /* FirstAlbumForArtistViewController */,
+				A828088A188B39BA00C7DB87 /* PlayTrackViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A82807D8188AC3C800C7DB87 /* ExternalLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				A828084E188AF8A700C7DB87 /* SDWebImage */,
+			);
+			name = ExternalLibraries;
+			sourceTree = "<group>";
+		};
+		A8280848188AE62500C7DB87 /* FirstAlbumForArtistViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8280843188AE61D00C7DB87 /* FirstAlbumForArtistViewController.h */,
+				A8280844188AE61D00C7DB87 /* FirstAlbumForArtistViewController.m */,
+				A8280845188AE61D00C7DB87 /* FirstAlbumForArtistViewController.xib */,
+			);
+			name = FirstAlbumForArtistViewController;
+			sourceTree = "<group>";
+		};
+		A828084C188AEDB000C7DB87 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A8280849188AEDAB00C7DB87 /* DeezerSession.h */,
+				A828084A188AEDAB00C7DB87 /* DeezerSession.m */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		A828084E188AF8A700C7DB87 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				A828087C188AFA5D00C7DB87 /* NSData+ImageContentType.h */,
+				A828087D188AFA5D00C7DB87 /* NSData+ImageContentType.m */,
+				A828084F188AF8A700C7DB87 /* MKAnnotationView+WebCache.h */,
+				A8280850188AF8A700C7DB87 /* MKAnnotationView+WebCache.m */,
+				A8280851188AF8A700C7DB87 /* SDImageCache.h */,
+				A8280852188AF8A700C7DB87 /* SDImageCache.m */,
+				A8280853188AF8A700C7DB87 /* SDWebImageCompat.h */,
+				A8280854188AF8A700C7DB87 /* SDWebImageCompat.m */,
+				A8280855188AF8A700C7DB87 /* SDWebImageDecoder.h */,
+				A8280856188AF8A700C7DB87 /* SDWebImageDecoder.m */,
+				A8280857188AF8A700C7DB87 /* SDWebImageDownloader.h */,
+				A8280858188AF8A700C7DB87 /* SDWebImageDownloader.m */,
+				A8280859188AF8A700C7DB87 /* SDWebImageDownloaderOperation.h */,
+				A828085A188AF8A700C7DB87 /* SDWebImageDownloaderOperation.m */,
+				A828085B188AF8A700C7DB87 /* SDWebImageManager.h */,
+				A828085C188AF8A700C7DB87 /* SDWebImageManager.m */,
+				A828085D188AF8A700C7DB87 /* SDWebImageOperation.h */,
+				A828085E188AF8A700C7DB87 /* SDWebImagePrefetcher.h */,
+				A828085F188AF8A700C7DB87 /* SDWebImagePrefetcher.m */,
+				A8280860188AF8A700C7DB87 /* UIButton+WebCache.h */,
+				A8280861188AF8A700C7DB87 /* UIButton+WebCache.m */,
+				A8280862188AF8A700C7DB87 /* UIImage+GIF.h */,
+				A8280863188AF8A700C7DB87 /* UIImage+GIF.m */,
+				A8280864188AF8A700C7DB87 /* UIImage+MultiFormat.h */,
+				A8280865188AF8A700C7DB87 /* UIImage+MultiFormat.m */,
+				A8280866188AF8A700C7DB87 /* UIImage+WebP.h */,
+				A8280867188AF8A700C7DB87 /* UIImage+WebP.m */,
+				A8280868188AF8A700C7DB87 /* UIImageView+WebCache.h */,
+				A8280869188AF8A700C7DB87 /* UIImageView+WebCache.m */,
+			);
+			name = SDWebImage;
+			path = ExternalLibraries/SDWebImage;
+			sourceTree = "<group>";
+		};
+		A8280877188AF95B00C7DB87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8280878188AF95B00C7DB87 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8280878188AF95B00C7DB87 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A828088D188C1A6F00C7DB87 /* Artists */,
+				A8280879188AF95B00C7DB87 /* Placeholders */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A8280879188AF95B00C7DB87 /* Placeholders */ = {
+			isa = PBXGroup;
+			children = (
+				A828087A188AF95B00C7DB87 /* artistIconPlaceholder.png */,
+			);
+			path = Placeholders;
+			sourceTree = "<group>";
+		};
+		A828087F188B336D00C7DB87 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A828088A188B39BA00C7DB87 /* PlayTrackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8280885188B39B300C7DB87 /* PlayTrackViewController.h */,
+				A8280886188B39B300C7DB87 /* PlayTrackViewController.m */,
+				A8280887188B39B300C7DB87 /* PlayTrackViewController.xib */,
+			);
+			name = PlayTrackViewController;
+			sourceTree = "<group>";
+		};
+		A828088D188C1A6F00C7DB87 /* Artists */ = {
+			isa = PBXGroup;
+			children = (
+				A828088E188C1A6F00C7DB87 /* artistCircle.png */,
+			);
+			path = Artists;
+			sourceTree = "<group>";
+		};
+		A8280893188C223400C7DB87 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				A8280894188C261400C7DB87 /* BaseTokens.h */,
+				A8280890188C222E00C7DB87 /* Tokens.h */,
+				A8280891188C222E00C7DB87 /* Tokens.m */,
+			);
+			name = Tokens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +444,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82807D3188ABDDC00C7DB87 /* SearchArtistViewController.xib in Resources */,
+				A828087B188AF95B00C7DB87 /* artistIconPlaceholder.png in Resources */,
+				A8280847188AE61D00C7DB87 /* FirstAlbumForArtistViewController.xib in Resources */,
 				A82807AB188ABD3900C7DB87 /* InfoPlist.strings in Resources */,
+				A8280889188B39B300C7DB87 /* PlayTrackViewController.xib in Resources */,
 				A82807B3188ABD3900C7DB87 /* Images.xcassets in Resources */,
+				A828088F188C1A6F00C7DB87 /* artistCircle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +469,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8280888188B39B300C7DB87 /* PlayTrackViewController.m in Sources */,
+				A8280874188AF8A700C7DB87 /* UIImage+MultiFormat.m in Sources */,
+				A828086F188AF8A700C7DB87 /* SDWebImageDownloaderOperation.m in Sources */,
+				A8280846188AE61D00C7DB87 /* FirstAlbumForArtistViewController.m in Sources */,
+				A828086C188AF8A700C7DB87 /* SDWebImageCompat.m in Sources */,
+				A8280873188AF8A700C7DB87 /* UIImage+GIF.m in Sources */,
+				A8280892188C222E00C7DB87 /* Tokens.m in Sources */,
+				A8280871188AF8A700C7DB87 /* SDWebImagePrefetcher.m in Sources */,
+				A828084B188AEDAB00C7DB87 /* DeezerSession.m in Sources */,
 				A82807B1188ABD3900C7DB87 /* AppDelegate.m in Sources */,
+				A8280875188AF8A700C7DB87 /* UIImage+WebP.m in Sources */,
+				A828086E188AF8A700C7DB87 /* SDWebImageDownloader.m in Sources */,
+				A8280872188AF8A700C7DB87 /* UIButton+WebCache.m in Sources */,
 				A82807AD188ABD3900C7DB87 /* main.m in Sources */,
+				A82807D2188ABDDC00C7DB87 /* SearchArtistViewController.m in Sources */,
+				A828087E188AFA5D00C7DB87 /* NSData+ImageContentType.m in Sources */,
+				A828086A188AF8A700C7DB87 /* MKAnnotationView+WebCache.m in Sources */,
+				A8280876188AF8A700C7DB87 /* UIImageView+WebCache.m in Sources */,
+				A8280870188AF8A700C7DB87 /* SDWebImageManager.m in Sources */,
+				A828086D188AF8A700C7DB87 /* SDWebImageDecoder.m in Sources */,
+				A828086B188AF8A700C7DB87 /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +611,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Deezer/Deezer-Prefix.pch";
 				INFOPLIST_FILE = "Deezer/Deezer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Rems/Projets/git/Deezer/Deezer/ExternalLibraries/DeezerSdk,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,7 +630,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Deezer/Deezer-Prefix.pch";
 				INFOPLIST_FILE = "Deezer/Deezer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Rems/Projets/git/Deezer/Deezer/ExternalLibraries/DeezerSdk,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -441,6 +702,7 @@
 				A82807CB188ABD3900C7DB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A82807CC188ABD3900C7DB87 /* Build configuration list for PBXNativeTarget "DeezerTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +711,7 @@
 				A82807CE188ABD3900C7DB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

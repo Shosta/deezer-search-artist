@@ -1,16 +1,9 @@
-//
-//  AppDelegate.h
-//  Deezer
-//
-//  Created by Rems on 18/01/2014.
-//  Copyright (c) 2014 RemiLavedrine. All rights reserved.
-//
 //--------------------------------------------------------
 // Rémi Lavedrine Corp
 //--------------------------------------------------------
 // Project     : Deezer
 // File        : BaseTokens.h
-// Created     : $ 20/04/2012 $
+// Created     : $ 19/01/2014 $
 // Maintainer  : $ Rémi LAVEDRINE $
 //
 // Copyright Rémi Lavedrine 2004-2012, All Rights Reserved
@@ -24,12 +17,12 @@
 //--------------------------------------------------------
 //
 // @brief
+// A class that contains all the tokens which only need to be described on a single header file (just as a #define command for instance).
+// This class is imported in Tokens.h which is imported in all project's classes through the "Deezer-Prefix.pch" file.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#define ARTIST_PLACEHOLDER_IMAGE [UIImage imageNamed:@"artistIconPlaceholder.png"]
+#define ALBUM_PLACEHOLDER_IMAGE [UIImage imageNamed:@"artistIconPlaceholder.png"]
 
-@property (strong, nonatomic) UIWindow *window;
-
-@end

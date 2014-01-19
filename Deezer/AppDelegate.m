@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SearchArtistViewController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +17,12 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    SearchArtistViewController *s = [[SearchArtistViewController alloc] initWithNibName:@"SearchArtistViewController" bundle:nil];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:s];
+    [self.window setRootViewController:navController];
+    
     return YES;
 }
 
