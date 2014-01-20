@@ -56,10 +56,7 @@
     // Set the navigationBar title with the track's title.
     NSString *trackTitle = [self.trackDict objectForKey:kTrackTitleKey];
     [self.navigationItem setTitle:trackTitle];
-    [self.currentlyPlayingLabel setText:[NSString stringWithFormat:@"Currently playing\n%@", trackTitle]];
-    
-    // Launch the track playing.
-    [self playTrack];
+    [self.currentlyPlayingLabel setText:@"Loading"];
     
     // Set the image for the track's album and the album's artist.
     [self.artistImageView setImageWithURL:self.artistImageUrl
@@ -67,6 +64,22 @@
     [self.albumCoverImageView setImageWithURL:self.albumCoverURL
                              placeholderImage:ALBUM_PLACEHOLDER_IMAGE];
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    // Launch the track playing.
+    [self playTrack];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    [self stopAudio];
+}
+
+
+#pragma mark - Play
 
 /**
  @brief Play the preview for this track.
@@ -76,11 +89,11 @@
  */
 - (void)playTrack {
     NSURL *trackPreviewUrl = [NSURL URLWithString:[self.trackDict objectForKey:kTrackPreviewKey]];
-    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:trackPreviewUrl error:NULL];
+    NSData *soundData = [NSData dataWithContentsOfURL:trackPreviewUrl];
+    self.player = [[AVAudioPlayer alloc] initWithData:soundData error:NULL];
     
     [self.player setDelegate:self];
-    [self.player prepareToPlay];
-    [self.player play];
+    [self playAudio];
 }
 
 
@@ -94,6 +107,9 @@
  */
 - (IBAction)playAudio {
     [self.player play];
+    
+    NSString *trackTitle = [self.trackDict objectForKey:kTrackTitleKey];
+    [self.currentlyPlayingLabel setText:[NSString stringWithFormat:@"Currently playing\n%@", trackTitle]];
 }
 
 /**
@@ -104,6 +120,8 @@
  */
 - (IBAction)stopAudio {
     [self.player stop];
+    
+    [self.currentlyPlayingLabel setText:@"Pause"];
 }
 
 @end

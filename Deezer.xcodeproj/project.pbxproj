@@ -76,7 +76,6 @@
 		A82807CF188ABDDC00C7DB87 /* SearchArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchArtistViewController.h; path = Controllers/SearchDeezerViewController/SearchArtistViewController.h; sourceTree = "<group>"; };
 		A82807D0188ABDDC00C7DB87 /* SearchArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchArtistViewController.m; path = Controllers/SearchDeezerViewController/SearchArtistViewController.m; sourceTree = "<group>"; };
 		A82807D1188ABDDC00C7DB87 /* SearchArtistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchArtistViewController.xib; path = Controllers/SearchDeezerViewController/SearchArtistViewController.xib; sourceTree = "<group>"; };
-		A82807D6188AC32E00C7DB87 /* libDeezer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDeezer.a; path = Deezer/ExternalLibraries/DeezerSdk/libDeezer.a; sourceTree = "<group>"; };
 		A8280843188AE61D00C7DB87 /* FirstAlbumForArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstAlbumForArtistViewController.h; path = Controllers/FirstAlbumForArtistViewController/FirstAlbumForArtistViewController.h; sourceTree = "<group>"; };
 		A8280844188AE61D00C7DB87 /* FirstAlbumForArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstAlbumForArtistViewController.m; path = Controllers/FirstAlbumForArtistViewController/FirstAlbumForArtistViewController.m; sourceTree = "<group>"; };
 		A8280845188AE61D00C7DB87 /* FirstAlbumForArtistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstAlbumForArtistViewController.xib; path = Controllers/FirstAlbumForArtistViewController/FirstAlbumForArtistViewController.xib; sourceTree = "<group>"; };
@@ -120,7 +119,6 @@
 		A8280890188C222E00C7DB87 /* Tokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tokens.h; path = Tokens/Tokens.h; sourceTree = "<group>"; };
 		A8280891188C222E00C7DB87 /* Tokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tokens.m; path = Tokens/Tokens.m; sourceTree = "<group>"; };
 		A8280894188C261400C7DB87 /* BaseTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTokens.h; path = Tokens/BaseTokens.h; sourceTree = "<group>"; };
-		A8280895188C374A00C7DB87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,9 +168,7 @@
 		A828079F188ABD3900C7DB87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8280895188C374A00C7DB87 /* AudioToolbox.framework */,
 				A828088B188BF54400C7DB87 /* AVFoundation.framework */,
-				A82807D6188AC32E00C7DB87 /* libDeezer.a */,
 				A82807A0188ABD3900C7DB87 /* Foundation.framework */,
 				A82807A2188ABD3900C7DB87 /* CoreGraphics.framework */,
 				A82807A4188ABD3900C7DB87 /* UIKit.framework */,
@@ -611,6 +607,7 @@
 		A82807CA188ABD3900C7DB87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -633,6 +630,7 @@
 		A82807CB188ABD3900C7DB87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
