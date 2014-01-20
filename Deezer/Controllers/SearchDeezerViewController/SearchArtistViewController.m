@@ -41,6 +41,8 @@
     
     // Set the navigationBar title.
     [self.navigationItem setTitle:@"Deezer"];
+    
+    [self.searchArtistTextField becomeFirstResponder];
 }
 
 
@@ -238,8 +240,8 @@ typedef enum{
                                                          self.artistsArray = [NSMutableArray arrayWithArray:[json objectForKey:@"data"]];
                                                          
                                                          [self.artistsTableView reloadData];
-                                                             [self.searchArtistButton setHidden:NO];
-                                                            [self.searchArtistRequestActivityIndicator setHidden:YES];
+                                                         [self.searchArtistButton setHidden:NO];
+                                                         [self.searchArtistRequestActivityIndicator setHidden:YES];
                                                      }
                                                  } else {
                                                      NSLog(@"Error");
